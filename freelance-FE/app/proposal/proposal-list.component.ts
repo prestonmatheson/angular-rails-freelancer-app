@@ -5,10 +5,10 @@ import { Proposal } from './proposal';
 import { ProposalService } from './proposal.service';
 
 @Component({
-  moduleId: module.id,
-  selector: 'proposal-list',
+  moduleId:    module.id,
+  selector:    'proposal-list',
   templateUrl: 'proposal-list.component.html',
-  styleUrls: ['proposal-list.component.css'],
+  styleUrls: [ 'proposal-list.component.css'],
   providers: [ ProposalService ]
 })
 export class ProposalListComponent implements OnInit {
